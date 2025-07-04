@@ -1,0 +1,29 @@
+{
+  "name": "hypo-back",
+  "version": "1.0.0",
+  "description": "Host Your Peer Olympiad",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "hypo"
+  ],
+  "type": "module",
+  "author": "Yash-Karan",
+  "license": "ISC",
+  "dependencies": {
+    "@auth/express": "^0.8.4",
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.10.1",
+    "nodemon": "^3.1.9",
+    "socket.io": "^4.8.1"
+  }
+}
